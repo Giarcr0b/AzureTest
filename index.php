@@ -22,7 +22,7 @@
                 print $name . " can buy sausage rolls.";
             }
 
-            echo "\r";
+            echo "\n";
 
             switch ($wantedgood) {
 
