@@ -10,19 +10,19 @@
             $wantedgood = "pies";
 
             if ($myage<16) {
-                print $name . " cant buy anything.\n";
+                print $name . " cant buy anything.";
             }
             elseif($myage<18) {
-                print $name . " can buy specs\n";
+                print $name . " can buy specs";
             }
             elseif($myage<21){
-                print $name . " can buy mugs.\n";
+                print $name . " can buy mugs.";
             }
             else {
-                print $name . " can buy sausage rolls.\n";
+                print $name . " can buy sausage rolls.";
             }
 
-
+            echo "\r\n";
 
             switch ($wantedgood) {
 
@@ -36,7 +36,7 @@
                     echo "you have to be over 21 to buy " . $wantedgood;
                     break;
                 default:
-                    echo "you cant buy " .$wantedgood . " in Aberdeen";
+                    echo " you cant buy " .$wantedgood . " in Aberdeen";
 
             }
           ?>
