@@ -8,7 +8,7 @@
             $myage = 25;
             $name = "Bob";
             $wantedgood = "pies";
-            $provisionedActivities = array("Specs", "Mugs", "Sausage Rolls");
+            $provisionedActivities = array("Specs", "Mugs", "Sausage Holls");
 
             if ($myage<16) {
                 print $name . " cant buy anything.";
