@@ -22,6 +22,8 @@
                 print $name . " can buy sausage rolls.";
             }
 
+            echo "\r";
+
             switch ($wantedgood) {
 
                 case "specs":
