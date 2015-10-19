@@ -8,6 +8,7 @@
             $myage = 25;
             $name = "Bob";
             $wantedgood = "pies";
+            $provisionedActivities = array("Specs", "Drugs", "Rock and Roll");
 
             if ($myage<16) {
                 print $name . " cant buy anything.";
@@ -38,6 +39,10 @@
                 default:
                     echo " you cant buy " .$wantedgood . " in Aberdeen";
 
+            }
+
+            foreach ($provisionedActivities as $x) {
+                print "<p>$x</p>";
             }
           ?>
 </p>
