@@ -7,7 +7,7 @@
     <?php
             $myage = 25;
             $name = "Bob";
-            $wantedgood = "mugs";
+            $wantedgood = "pies";
 
             if ($myage<16) {
                 print $name . " cant buy anything.";
