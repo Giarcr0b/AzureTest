@@ -56,6 +56,31 @@
              foreach ($provisionedActivities as $x) {
                 print "<p>$x</p>";
                }
+
+            for ($i = 1; $i < 31; $i++) {
+
+                print nl2br ("\nOn day " .$i . " of the Month ");
+
+                if (($i % 2) == 0) {
+
+                    print $provisionedActivities[0] . " are available ";
+
+                }
+
+                if (($i % 4) == 0) {
+
+                    print "and " . $provisionedActivities[2] . " are available";
+                }
+
+                elseif (($i % 3) == 0) {
+
+                    print $provisionedActivities[1] . " are available";
+                }
+
+                else {
+                    print "no products are available";
+                }
+            }
           ?>
 </p>
 </body>
