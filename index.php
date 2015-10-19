@@ -8,7 +8,7 @@
             $myage = 25;
             $name = "Bob";
             $wantedgood = "pies";
-            $provisionedActivities = array("Specs", "Drugs", "Rock and Roll");
+            $provisionedActivities = array("Specs", "Mugs", "Sausage Rolls");
 
             if ($myage<16) {
                 print $name . " cant buy anything.";
@@ -44,6 +44,12 @@
             foreach ($provisionedActivities as $x) {
                 print "<p>$x</p>";
             }
+
+            $provisionedActivities[1] = "Hugs";
+
+             foreach ($provisionedActivities as $x) {
+                 print "<p>$x</p>";
+             }
           ?>
 </p>
 </body>
