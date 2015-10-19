@@ -10,19 +10,19 @@
             $wantedgood = "pies";
 
             if ($myage<16) {
-                print $name . " cant buy anything.";
+                print $name . " cant buy anything.\n";
             }
             elseif($myage<18) {
-                print $name . " can buy specs";
+                print $name . " can buy specs\n";
             }
             elseif($myage<21){
-                print $name . " can buy mugs.";
+                print $name . " can buy mugs.\n";
             }
             else {
-                print $name . " can buy sausage rolls.";
+                print $name . " can buy sausage rolls.\n";
             }
 
-            echo "\n";
+
 
             switch ($wantedgood) {
 
