@@ -5,7 +5,21 @@
 <body>
 <p>
     <?php
-            echo "Hello  My World";
+            $myage = 18;
+            $name = "Bob";
+
+            if ($myage<16) {
+                print $name . " cant buy anything.";
+            }
+            elseif($myage<18) {
+                print $name . " can buy specs";
+            }
+            elseif($myage<21){
+                print $name . " can buy mugs.";
+            }
+            else {
+                print $name . " can buy sausage rolls.";
+            }
           ?>
 </p>
 </body>
