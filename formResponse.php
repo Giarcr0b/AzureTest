@@ -8,8 +8,7 @@
 $name = $_POST["name"];
 $dob = $_POST["dob"];
 
-echo "Name: " . $name;
-echo $dob;
+echo "Name: " . $name . "Date of Birth: " . $dob;
 
 ?>
 
