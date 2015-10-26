@@ -13,5 +13,11 @@
 <p>
     <a href="helloPrinter.php?query=Uranus">Uranus</a>
 </p>
+
+<form action="formResponse.php" method="post">
+    <label>Persons Name</label><input type="text" name="Persons Name">
+    <label>dob</label>
+
+</form>
 </body>
 </html>
