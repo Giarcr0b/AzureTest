@@ -17,6 +17,7 @@
 <form action="formResponse.php" method="post">
     <label>Persons Name: </label><input type="text" name="Persons Name">
     <label>Date of Birth: </label><input type="date" name="dob">
+    <input type="submit" value="Submit">
 
 </form>
 </body>
