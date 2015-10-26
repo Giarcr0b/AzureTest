@@ -5,13 +5,13 @@
 <body>
 <h1>Where would you like to say Hello?</h1>
 <p>
-    <a href="helloPrinter.php?query=earth">Earth</a>
+    <a href="helloPrinter.php?query=Earth">Earth</a>
 </p>
 <p>
-    <a href="helloPrinter.php?query=mars">Mars</a>
+    <a href="helloPrinter.php?query=Mars">Mars</a>
 </p>
 <p>
-    <a href="helloPrinter.php?query=uranus">Uranus</a>
+    <a href="helloPrinter.php?query=Uranus">Uranus</a>
 </p>
 </body>
 </html>
