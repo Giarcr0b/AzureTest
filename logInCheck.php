@@ -16,7 +16,7 @@ If($name = $nameCheck & $password = $passwordCheck) {
 
     setcookie("Name", $name);
     setcookie("access_level", "standarduser");
-    header("location: http://homepage.php");
+
 
 }
 
