@@ -11,5 +11,5 @@ if (isset($_COOKIE["Name"])) {
     echo "Access level is " . $_COOKIE["access_level"];
 
 }
-
+else
 ?>
