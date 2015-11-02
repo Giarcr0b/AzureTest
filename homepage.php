@@ -9,7 +9,7 @@ if (isset($_COOKIE["Name"])) {
 
     echo "Your Name is " . $_COOKIE["Name"];
     echo "Access level is " . $_COOKIE["access_level"];
-    header("location: homepage.php");
+
 }
 
 ?>
