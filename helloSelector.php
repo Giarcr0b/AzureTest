@@ -15,8 +15,14 @@
 </p>
 
 <form action="formResponse.php" method="post">
-    <label>Fore Name: </label><input type="text" name="forename">
-    <label>Surname: </label><input type="text" name="surname">
+    <label>Name: </label><input type="text" name="name">
+    <label>D.O.B: </label><input type="date" name="dob">
+    <input type="checkbox" name="power1" value="fly"> I can Fly
+    <br>
+    <input type="checkbox" name="power2" value="invunrable"> I am invunrable
+    <br>
+    <input type="checkbox" name="power3" value="strength"> I have Super Strength
+
     <input type="submit" value="Submit">
 
 </form>
