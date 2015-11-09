@@ -19,6 +19,10 @@
     <br>
     <label>D.O.B: </label><input type="date" name="dob">
     <br>
+    <label>Gender: </label>
+    <input type="radio" name="gender" value="male" checked> Male
+    <input type="radio" name="gender" value="female"> Female
+    <br>
     <input type="checkbox" name="power1" value="fly"> I can Fly
     <br>
     <input type="checkbox" name="power2" value="invunrable"> I am invunrable
