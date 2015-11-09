@@ -15,7 +15,8 @@ $power3 = $_POST["power3"];
 
 echo "Name: $name  Date of Birth: $dob<br>";
 echo "Gender: $gender<br>";
-echo "$power1"
+echo "$power1";
+echo "$power2";
 
 ?>
 
