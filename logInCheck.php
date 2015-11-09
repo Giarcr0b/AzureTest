@@ -14,9 +14,9 @@ $password = $_POST["pass"];
 
 If($name = $nameCheck & $password = $passwordCheck) {
 
-    setcookie("Name", $name);
-    setcookie("access_level", "standarduser");
-    header("location: http://homepage.php");
+    setcookie("Name", $name, time() + (86400 * 30), "/");
+    setcookie("access_level", "standarduser", time() + (86400 * 30), "/");
+    header("location: http://testapp1109847.azurewebsites.net/homepage.php");
 
 
 }
