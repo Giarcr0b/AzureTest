@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
-<p>
+
 <?php
 /**
  * Created by PhpStorm.
@@ -31,6 +26,4 @@ $db->close();
 
 
 ?>
-</p>
-</body>
-</html>
+
