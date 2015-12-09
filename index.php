@@ -87,8 +87,9 @@
     echo "<h1>Which Studios Super Hero Films do you want to display?</h1>";
 
     while ($row = $result->fetch_array()) {
+        $clicked = $row['productionStudio'];
         echo "<p>" .
-            "<a href=" . "'superHero.php?query='" . $row['productionStudio'] . ">" . $row['productionStudio'] . "</a>" .
+            "<a href=" . "'superHero.php?query=$clicked'" . ">" . $clicked . "</a>" .
             "</p>";
     }
 
