@@ -12,7 +12,9 @@ if ($db->connect_errno) {
     die('Connectfailed[' . $db->connect_error . ']');
 }
 echo "HEllo";
-$sql_query = "SELECT * FROM marvelmovies WHERE productionStudio LIKE '%Fox%'";
+$query = $_GET["query"];
+
+$sql_query = "SELECT * FROM marvelmovies WHERE productionStudio = $query";
 
 $result = $db->query($sql_query);
 

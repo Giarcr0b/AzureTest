@@ -87,6 +87,17 @@
 <p>
     <a href="helloSelector.php">Hello World</a>
 </p>
+
+<h1>Which Studios Super Hero Films do you want to display?</h1>
+<p>
+    <a href="superHero.php?query=Universal Studios">Universal Studios</a>
+</p>
+<p>
+    <a href="superHero.php?query=20th Century Fox">20th Century Fox</a>
+</p>
+<p>
+    <a href="superHero.php?query=New Line Cinema">New Line Cinema</a>
+</p>
 </body>
 </html>
 
