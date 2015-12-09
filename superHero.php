@@ -12,7 +12,7 @@ if ($db->connect_errno) {
     die('Connectfailed[' . $db->connect_error . ']');
 }
 echo "HEllo";
-$sql_query = "SELECT * FROM marvelmovies WHERE title = '%F%'";
+$sql_query = "SELECT * FROM marvelmovies WHERE title LIKE '%F%'";
 
 $result = $db->query($sql_query);
 
