@@ -81,7 +81,7 @@
         die('Connectfailed[' . $db->connect_error . ']');
     }
 
-    $sql_query = "SELECT * FROM marvelmovies";
+    $sql_query = "SELECT DISTINCT productionStudio FROM marvelmovies";
 
     $result = $db->query($sql_query);
     echo "<h1>Which Studios Super Hero Films do you want to display?</h1>";
