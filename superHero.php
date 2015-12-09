@@ -14,7 +14,9 @@ if ($db->connect_errno) {
 echo "HEllo";
 $query = $_GET["query"];
 
-$sql_query = "SELECT * FROM marvelmovies WHERE productionStudio = $query";
+echo $query;
+
+$sql_query = "SELECT * FROM marvelmovies WHERE productionStudio = '$query'";
 
 $result = $db->query($sql_query);
 
