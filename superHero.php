@@ -26,6 +26,7 @@ if ($db->connect_errno) {
 
 $result->close();
 
+
 $db->close();
 
 
