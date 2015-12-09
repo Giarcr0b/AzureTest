@@ -17,7 +17,7 @@ $sql_query = "SELECT * FROM marvelmovies WHERE productionStudio LIKE '%Fox%'";
 $result = $db->query($sql_query);
 
 while($row = $result->fetch_array()){
-    echo "<p>".$row['title']."</p>";
+    echo "<p>".$row['title'].$row['yearReleased']."</p>";
 }
 
 $result->close();
